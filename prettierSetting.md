@@ -1,4 +1,5 @@
-#### Create a file on root directory named by .prettierrc and paste the following setting
+### Create a file on root directory named by .prettierrc and paste the following setting
+
 ```json
 {
   "tabWidth": 2,
