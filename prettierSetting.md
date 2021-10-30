@@ -1,4 +1,6 @@
-### Create a file on root directory named by .prettierrc and paste the following setting
+# .prettierrc setting
+
+### Install `Prettier` extension in VS Code and create a file on root directory named by `.prettierrc` and paste the following setting
 
 ```json
 {
@@ -11,3 +13,5 @@
   "arrowParens": "always"
 }
 ```
+
+and in VS Code setting, search for `Format on save`, enable it and you are good to go 👍.
