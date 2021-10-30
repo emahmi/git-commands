@@ -14,4 +14,4 @@
 }
 ```
 
-and in VS Code setting, search for `Format on save`, enable it and you are good to go 👍.
+Now in VS Code setting, search for `Format on save`, enable it and you are good to go 👍.
