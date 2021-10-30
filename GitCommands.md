@@ -1,10 +1,10 @@
 ## Most commonly used git commands
 
-#### Using Git Init Command
+#### 1. Using Git Init Command
 ```
 $ git init
 ```
-#### Using Git Clone Command
+#### 2. Using Git Clone Command
 ```
 $ git clone <https://url-of-the-repository>
 ```
