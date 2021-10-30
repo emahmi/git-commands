@@ -1,30 +1,46 @@
-## Most commonly used git commands
+# Most commonly used git commands
 
-#### 1. Using Git Init Command
+## Table of content
+
+- [Using Git Init Command](###using-git-init-command)
+- [Using Git Clone Command](#using-git-clone-command)
+- [This will disassociate the downloaded current repository from the origin.](#this-will-disassociate-the-downloaded-current-repository-from-the-origin)
+- [Using Git Branch to create a new branch](#using-git-branch-to-create-a-new-branch)
+- [Command to view all branches](#command-to-view-all-branches)
+- [Git command to delete a branch](#git-command-to-delete-a-branch)
+- [Using Git Checkout Command](#using-git-checkout-command)
+- [Using Git Add Command](#using-git-add-command)
+- [Using Git Commit Command](#using-git-commit-command)
+- [Using Git Push Command](#using-git-push-command)
+- [Using Git Pull Command](#using-git-pull-command)
+- [Using Git Status Command](#using-git-status-command)
+- [Using Git Log Command](#using-git-log-command)
+
+## Using Git Init Command
 
     $ git init
 
-#### 2. Using Git Clone Command
+## Using Git Clone Command
 
     $ git clone <https://url-of-the-repository>
 
-#### 3. This will disassociate the downloaded current repository from the origin.
+## This will disassociate the downloaded current repository from the origin.
 
     $ git remote rm origin
 
-#### 4. Using Git Branch to create a new branch
+## Using Git Branch to create a new branch
 
     $ git branch <branch-name>
 
-#### 5. Command to view all branches
+## Command to view all branches
 
     $ git branch
 
-#### 6. Git command to delete a branch
+## Git command to delete a branch
 
     $ git branch -d <branch-name>
 
-#### 7. Using Git Checkout Command
+## Using Git Checkout Command
 
     $ git checkout <branch-name>
 
@@ -32,7 +48,7 @@
 
     $ git switch <branch-name>
 
-#### 8. Using Git Add Command
+## Using Git Add Command
 
     $ git add <file-name>
 
@@ -40,22 +56,22 @@
 
     $ git add .
 
-#### 9. Using Git Commit Command
+## Using Git Commit Command
 
     $ git commit -am “<commit-message>”
 
-#### 10. Using Git Push Command
+## Using Git Push Command
 
     $ git push <remote> <branch-name>
 
-#### 11. Using Git Pull Command
+## Using Git Pull Command
 
     $ git pull <remote>
 
-#### 12. Using Git Status Command
+## Using Git Status Command
 
     $ git status
 
-#### 13. Using Git Log Command
+## Using Git Log Command
 
     $ git log
