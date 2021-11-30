@@ -59,7 +59,7 @@
 
 ### Using Git Commit Command
 
-    $ git commit -am “<commit-message>”
+    $ git commit -m “<commit-message>”
 
 ### Using Git Push Command
 
