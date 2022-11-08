@@ -15,6 +15,9 @@
 - [Using Git Pull Command](#using-git-pull-command)
 - [Using Git Status Command](#using-git-status-command)
 - [Using Git Log Command](#using-git-log-command)
+- [Using Git Reset Command](#using-git-reset-command)
+- [Using Git Restore Command](#using-git-restore-command)
+- [Using Git Stash Command](#using-git-stash-command)
 - <i>If you want to learn git concepts you can visit a website by <a href='https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc'>Clicking here</a></i>
 
 ### Using Git Init Command
@@ -76,3 +79,25 @@
 ### Using Git Log Command
 
     $ git log
+
+### Using Git Reset Command
+
+    $ git reset <--soft or --mixed or --hard> <commit hash or HEAD~N>
+
+### Using Git Restore Command
+
+    $ git restore <file-name>
+
+> or Discard all files
+
+    $ git restore .
+
+### Using Git Stash Command
+
+    $ git stash save "<some comment>"
+
+    $ git stash apply <stash index>
+
+    $ git stash list
+
+    $ git stash drop <stash index>
